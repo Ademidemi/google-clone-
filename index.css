@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px;
+    height: 100vh;
+    justify-content: space-between;
+  }
+  
+  nav {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    width: 100%;
+  }
+  
+  .nav-left {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 15px;
+  }
+  
+  .nav-right {
+    /* width: 30%; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 15px;
+  }
+  
+  .google-img {
+    width: 35%;
+  }
+
+  .name{
+    display: block;
+    border-radius: 50%;
+  }
+  
+  .middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+  }
+
+  .middle .img {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .search-box {
+    display: flex;
+    width: 40%;
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    padding: 10px;
+    /* justify-content: space-between; */
+    gap: 10px;
+    align-items: center;
+    
+  }
+  
+  .search-box input {
+    border: none;
+  width: 80%;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 16px;
+    border: none;
+    margin: 10px;
+   
+  }
+  
+  footer {
+    height: 100px;
+    width: 100%;
+    background-color: lightgrey;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .links-left,
+  .links-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+  }
+  
+  footer p {
+    text-align: center;
+  }
+  
